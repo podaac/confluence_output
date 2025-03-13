@@ -1,6 +1,6 @@
 [project]
 name = "confluence-output"
-version = "1.0.0"
+version = "1.0.1a0"
 description = "Appends results from each stage of the Confluence workflow to a new version of the SoS "
 authors = [
     {name = "Nikki",email = "17799906+nikki-t@users.noreply.github.com"}
