@@ -1,0 +1,22 @@
+[project]
+name = "confluence-output"
+version = "1.0.0"
+description = "Appends results from each stage of the Confluence workflow to a new version of the SoS "
+authors = [
+    {name = "Nikki",email = "17799906+nikki-t@users.noreply.github.com"}
+]
+license = {text = "Apache License 2.0"}
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+packages = [
+    {include = "run_output.py"},
+    {include = "output"}
+]
